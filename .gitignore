@@ -1,0 +1,31 @@
+# Executabile
+*.exe
+*.out
+app_openmp
+app_mpi
+app_tbb
+
+# Obiecte și librării
+*.o
+*.obj
+*.so
+*.a
+
+# IDE-uri (Visual Studio, VS Code, CLion)
+.vscode/
+.vs/
+out/
+build/
+*.user
+
+# Date de intrare/ieșire (Imagini medicale mari care nu trebuie pe Git)
+*.dicom
+*.raw
+*.png
+*.jpg
+!sample.png # Exceptie dacă vrei să păstrezi o imagine mică de test
+
+brain_tumor_dataset/
+*.exe
+*.o
+build/
